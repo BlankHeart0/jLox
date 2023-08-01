@@ -1,0 +1,11 @@
+print "Hello, world!";
+
+var a=1;
+var b=2;
+var c=a+b;
+
+if(c>=3){
+    print "yes";
+}else{
+    print "no";
+}

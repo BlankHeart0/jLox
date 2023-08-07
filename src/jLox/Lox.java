@@ -50,21 +50,21 @@ public class Lox {
     }
 
     private static void run(String source){
+        //Lexical
         Scanner scanner=new Scanner(source);
         List<Token>tokens=scanner.scanTokens();
-        //Lexical
-        for(Token token:tokens){
-            System.out.println(token);
-        }
+//        for(Token token:tokens){
+//            System.out.println(token);
+//        }
+
         //Parse
         Parser parser=new Parser(tokens);
-        Expr expression = parser.parse();
-
+        List<Stmt> statements = parser.parse();
         if(hardError)return;
+        //System.out.println(new AstPrinter().print(statements));
 
-        System.out.println(new AstPrinter().print(expression));
         //work
-        interpreter.interpret(expression);
+        interpreter.interpret(statements);
     }
 
     static void error(int line,String message)

@@ -1,0 +1,34 @@
+Date : 2023-08-08 16:55:45
+Directory : c:\Users\PJDaDiE\Desktop\Lox\src\jLox
+Total : 10 files,  953 codes, 20 comments, 218 blanks, all 1191 lines
+
+Languages
++----------+------------+------------+------------+------------+------------+
+| language | files      | code       | comment    | blank      | total      |
++----------+------------+------------+------------+------------+------------+
+| Java     |         10 |        953 |         20 |        218 |      1,191 |
++----------+------------+------------+------------+------------+------------+
+
+Directories
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                    | files      | code       | comment    | blank      | total      |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                       |         10 |        953 |         20 |        218 |      1,191 |
++---------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++---------------------------------------------------------+----------+------------+------------+------------+------------+
+| filename                                                | language | code       | comment    | blank      | total      |
++---------------------------------------------------------+----------+------------+------------+------------+------------+
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\AstPrinter.java   | Java     |         34 |          0 |          9 |         43 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Environment.java  | Java     |         36 |          0 |         10 |         46 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Expr.java         | Java     |         96 |          0 |         18 |        114 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Interpreter.java  | Java     |        181 |          0 |         37 |        218 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Lox.java          | Java     |         71 |          7 |         17 |         95 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Parser.java       | Java     |        263 |          0 |         66 |        329 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\RuntimeError.java | Java     |          8 |          0 |          2 |         10 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Scanner.java      | Java     |        150 |         11 |         34 |        195 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\Stmt.java         | Java     |         81 |          0 |         16 |         97 |
+| c:\Users\PJDaDiE\Desktop\Lox\src\jLox\TokenType.java    | Java     |         33 |          2 |          9 |         44 |
+| Total                                                   |          |        953 |         20 |        218 |      1,191 |
++---------------------------------------------------------+----------+------------+------------+------------+------------+
